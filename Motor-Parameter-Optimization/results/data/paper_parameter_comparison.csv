@@ -1,0 +1,8 @@
+metric,paper_parameter_reference,local_result,reference_provenance,local_provenance,relative_error_pct
+magnet_area_quarter_m2,0.0001591,0.000159065269089988,paper_reference,local_run,-0.0218296103152556
+mean_torque_full_Nm,2.3,2.30000010665162,paper_reference,local_run,4.63702680118262e-06
+torque_std_full_Nm,0.0996,0.0996215092847715,paper_reference,local_run,0.0215956674412242
+objective,4.081,4.08119016492811,paper_reference,local_run,0.00465976300205207
+iterations,51,51,paper_reference,local_run,0
+evaluations,65,72,paper_reference,local_run,10.7692307692308
+time_s,2100,3143.2174604,paper_reference,local_run,49.6770219238095

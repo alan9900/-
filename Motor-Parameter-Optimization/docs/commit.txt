@@ -1,0 +1,5 @@
+plan_repository=https://github.com/alan9900/-.git
+plan_commit=4745ca9783b4679ebffea3812763440323a9ef66
+upstream=https://github.com/MichaelWiesheu/MotorOptimization
+commit=e61673e10d4a7f164b713fb744e19bb69973f7e9
+prepared_at=2026-10-18T10:28:59.855394+08:00

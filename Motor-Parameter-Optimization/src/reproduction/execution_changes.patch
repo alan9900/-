@@ -1,0 +1,70 @@
+diff --git a/classes/basic/DAE_System.m b/classes/basic/DAE_System.m
+index cd9be82..1885f19 100644
+--- a/classes/basic/DAE_System.m
++++ b/classes/basic/DAE_System.m
+@@ -1,5 +1,7 @@
+ classdef  DAE_System < DAE_Element
+     properties
++        LastSolveResidual = NaN;
++        LastSolveIterations = NaN;
+         DAEsolution
+         Elements = struct('Element', {}, 'Indices', {}, 'IndicesExt', {}, 'IndicesInt', {});
+         Mlin, Klin, Flin;           % Linear contributions of Mass, Stiffness and RHS
+@@ -112,6 +114,8 @@ classdef  DAE_System < DAE_Element
+             end
+ 
+             y0 = obj.reconstructSolution(t, y0red);
++            obj.LastSolveResidual = rnorm1;
++            obj.LastSolveIterations = iNewton;
+             obj.postprocess(t, y0);
+         end
+ 
+diff --git a/classes/basic/OPT_System.m b/classes/basic/OPT_System.m
+index f4328de..c7a59e6 100644
+--- a/classes/basic/OPT_System.m
++++ b/classes/basic/OPT_System.m
+@@ -83,7 +83,8 @@ classdef  OPT_System < DAE_System & OPT_Element
+             problem.lb = zeros(obj.NumberOptimizationParameters, 1);
+ 
+             obj.StartTime = tic();
+-            x_opt = fmincon(problem);
++            [x_opt, objective_final, exitflag, solver_output, lambda] = fmincon(problem);
++            save(obj.SaveDirectory+"/solver_status.mat", 'x_opt', 'objective_final', 'exitflag', 'solver_output', 'lambda');
+ 
+             % Rescale to physical values
+             x_opt = x_opt.*(obj.UpperBounds-obj.LowerBounds) + obj.LowerBounds;
+diff --git a/results/opt_evaluations/eval_init.m b/results/opt_evaluations/eval_init.m
+index 9ae4848..76f913e 100644
+--- a/results/opt_evaluations/eval_init.m
++++ b/results/opt_evaluations/eval_init.m
+@@ -1,9 +1,7 @@
+-clear all
+-close all
+-clc
+-restoredefaultpath
+ 
+-addpath(genpath("../../"))
++
++
++
+ 
+ %%
+ opts.draw_geometry = false;
+diff --git a/results/opt_param/opt_param.m b/results/opt_param/opt_param.m
+index e3c3db1..c42263d 100644
+--- a/results/opt_param/opt_param.m
++++ b/results/opt_param/opt_param.m
+@@ -1,10 +1,8 @@
+ 
+-clear all
+-close all
+-clc
+-restoredefaultpath
+ 
+-addpath(genpath("../../"))
++
++
++
+ 
+ %%
+ opts.draw_geometry = false;
