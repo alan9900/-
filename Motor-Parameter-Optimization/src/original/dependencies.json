@@ -1,0 +1,19 @@
+{
+  "repository": "https://github.com/MichaelWiesheu/MotorOptimization.git",
+  "commit": "e61673e10d4a7f164b713fb744e19bb69973f7e9",
+  "license": "GPL-3.0-or-later, with separate third-party geometry/material terms",
+  "directories": [
+    "auxiliary",
+    "classes",
+    "derivatives",
+    "geometries",
+    "operators",
+    "packages"
+  ],
+  "entry_scripts": [
+    "results/opt_param/opt_param.m",
+    "results/opt_evaluations/eval_init.m"
+  ],
+  "bootstrap": "../reproduction/Bootstrap-Upstream.ps1",
+  "author_optimization_archives_used_as_local_results": false
+}

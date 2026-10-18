@@ -1,0 +1,22 @@
+{
+  "scenario": "param",
+  "status": "reproduced",
+  "provenance": "local_run",
+  "commit": "e61673e10d4a7f164b713fb744e19bb69973f7e9",
+  "matlab_version": "25.1.0.2943329 (R2025a)",
+  "timestamp": "2026-10-18 11:26:57",
+  "elapsed_s": 3164.2582938,
+  "evaluation_elapsed_s": 105.5786334,
+  "iterations": 51,
+  "func_count": 72,
+  "exitflag": 2,
+  "mean_torque_Nm": 2.3000001066516162,
+  "torque_std_Nm": 0.09962150928477145,
+  "magnet_area_m2": 0.00015906526908998842,
+  "torque_target_Nm": 2.3,
+  "constraint_max_violation": 0,
+  "normalized_bound_violation": 0,
+  "objective_final": 4.081190164928114,
+  "max_field_residual_squared": 9.53687437477691e-07,
+  "source_file": "results/data/final_design/final_rotor.txt"
+}

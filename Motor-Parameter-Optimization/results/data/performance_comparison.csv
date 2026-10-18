@@ -1,0 +1,4 @@
+metric,unit,initial,optimized,change_pct,reduction_pct,provenance
+magnet_area_quarter,mm2,176,159.065269089988,-9.62200619887016,9.62200619887016,local_run
+mean_torque_full,Nm,2.24558966288373,2.30000010665162,2.42299137136275,NaN,local_run
+torque_std_full,Nm,0.333825085737374,0.0996215092847715,-70.1575724710079,70.1575724710079,local_run

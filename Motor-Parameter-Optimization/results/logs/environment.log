@@ -1,0 +1,144 @@
+[PUBLICATION NOTE: local path prefixes and terminal backspace controls removed; numerical log content retained.]
+
+ans =
+
+    '25.1.0.2943329 (R2025a)'
+
+-------------------------------------------------------------
+MATLAB 版本: 25.1.0.2943329 (R2025a)
+MATLAB 许可证编号: 968398
+操作系统: Microsoft Windows 11 家庭版 中文版 Version 10.0 (Build 26300)
+Java 版本: Java is not enabled
+-------------------------------------------------------------
+MATLAB                                                版本 25.1             (R2025a)
+Simulink                                              版本 25.1             (R2025a)
+5G Toolbox                                            版本 25.1             (R2025a)
+AUTOSAR Blockset                                      版本 25.1             (R2025a)
+Aerospace Blockset                                    版本 25.1             (R2025a)
+Aerospace Toolbox                                     版本 25.1             (R2025a)
+Antenna Toolbox                                       版本 25.1             (R2025a)
+Audio Toolbox                                         版本 25.1             (R2025a)
+Automated Driving Toolbox                             版本 25.1             (R2025a)
+Bioinformatics Toolbox                                版本 25.1             (R2025a)
+Bluetooth Toolbox                                     版本 25.1             (R2025a)
+C2000 Microcontroller Blockset                        版本 25.1             (R2025a)
+Communications Toolbox                                版本 25.1             (R2025a)
+Computer Vision Toolbox                               版本 25.1             (R2025a)
+Control System Toolbox                                版本 25.1             (R2025a)
+Curve Fitting Toolbox                                 版本 25.1             (R2025a)
+DDS Blockset                                          版本 25.1             (R2025a)
+DSP HDL Toolbox                                       版本 25.1             (R2025a)
+DSP System Toolbox                                    版本 25.1             (R2025a)
+Data Acquisition Toolbox                              版本 25.1             (R2025a)
+Database Toolbox                                      版本 25.1             (R2025a)
+Datafeed Toolbox                                      版本 25.1             (R2025a)
+Deep Learning HDL Toolbox                             版本 25.1             (R2025a)
+Deep Learning Toolbox                                 版本 25.1             (R2025a)
+Econometrics Toolbox                                  版本 25.1             (R2025a)
+Embedded Coder                                        版本 25.1             (R2025a)
+Financial Instruments Toolbox                         版本 25.1             (R2025a)
+Financial Toolbox                                     版本 25.1             (R2025a)
+Fixed-Point Designer                                  版本 25.1             (R2025a)
+Fuzzy Logic Toolbox                                   版本 25.1             (R2025a)
+GPU Coder                                             版本 25.1             (R2025a)
+Global Optimization Toolbox                           版本 25.1             (R2025a)
+HDL Coder                                             版本 25.1             (R2025a)
+HDL Verifier                                          版本 25.1             (R2025a)
+Image Acquisition Toolbox                             版本 25.1             (R2025a)
+Image Processing Toolbox                              版本 25.1             (R2025a)
+Industrial Communication Toolbox                      版本 25.1             (R2025a)
+Instrument Control Toolbox                            版本 25.1             (R2025a)
+LTE Toolbox                                           版本 25.1             (R2025a)
+Lidar Toolbox                                         版本 25.1             (R2025a)
+MATLAB Coder                                          版本 25.1             (R2025a)
+MATLAB Compiler                                       版本 25.1             (R2025a)
+MATLAB Compiler SDK                                   版本 25.1             (R2025a)
+MATLAB Report Generator                               版本 25.1             (R2025a)
+MATLAB Test                                           版本 25.1             (R2025a)
+Mapping Toolbox                                       版本 25.1             (R2025a)
+Medical Imaging Toolbox                               版本 25.1             (R2025a)
+Mixed-Signal Blockset                                 版本 25.1             (R2025a)
+Model Predictive Control Toolbox                      版本 25.1             (R2025a)
+Model-Based Calibration Toolbox                       版本 25.1             (R2025a)
+Motor Control Blockset                                版本 25.1             (R2025a)
+Navigation Toolbox                                    版本 25.1             (R2025a)
+Optimization Toolbox                                  版本 25.1             (R2025a)
+Parallel Computing Toolbox                            版本 25.1             (R2025a)
+Partial Differential Equation Toolbox                 版本 25.1             (R2025a)
+Phased Array System Toolbox                           版本 25.1             (R2025a)
+Powertrain Blockset                                   版本 25.1             (R2025a)
+Predictive Maintenance Toolbox                        版本 25.1             (R2025a)
+RF Blockset                                           版本 25.1             (R2025a)
+RF PCB Toolbox                                        版本 25.1             (R2025a)
+RF Toolbox                                            版本 25.1             (R2025a)
+ROS Toolbox                                           版本 25.1             (R2025a)
+Radar Toolbox                                         版本 25.1             (R2025a)
+Reinforcement Learning Toolbox                        版本 25.1             (R2025a)
+Requirements Toolbox                                  版本 25.1             (R2025a)
+Risk Management Toolbox                               版本 25.1             (R2025a)
+Robotics System Toolbox                               版本 25.1             (R2025a)
+Robust Control Toolbox                                版本 25.1             (R2025a)
+Satellite Communications Toolbox                      版本 25.1             (R2025a)
+Sensor Fusion and Tracking Toolbox                    版本 25.1             (R2025a)
+SerDes Toolbox                                        版本 25.1             (R2025a)
+Signal Integrity Toolbox                              版本 25.1             (R2025a)
+Signal Processing Toolbox                             版本 25.1             (R2025a)
+SimBiology                                            版本 25.1             (R2025a)
+SimEvents                                             版本 25.1             (R2025a)
+Simscape                                              版本 25.1             (R2025a)
+Simscape Battery                                      版本 25.1             (R2025a)
+Simscape Driveline                                    版本 25.1             (R2025a)
+Simscape Electrical                                   版本 25.1             (R2025a)
+Simscape Fluids                                       版本 25.1             (R2025a)
+Simscape Multibody                                    版本 25.1             (R2025a)
+Simulink 3D Animation                                 版本 25.1             (R2025a)
+Simulink Check                                        版本 25.1             (R2025a)
+Simulink Coder                                        版本 25.1             (R2025a)
+Simulink Compiler                                     版本 25.1             (R2025a)
+Simulink Control Design                               版本 25.1             (R2025a)
+Simulink Coverage                                     版本 25.1             (R2025a)
+Simulink Design Optimization                          版本 25.1             (R2025a)
+Simulink Design Verifier                              版本 25.1             (R2025a)
+Simulink Desktop Real-Time                            版本 25.1             (R2025a)
+Simulink Fault Analyzer                               版本 25.1             (R2025a)
+Simulink PLC Coder                                    版本 25.1             (R2025a)
+Simulink Real-Time                                    版本 25.1             (R2025a)
+Simulink Report Generator                             版本 25.1             (R2025a)
+Simulink Test                                         版本 25.1             (R2025a)
+SoC Blockset                                          版本 25.1             (R2025a)
+Spreadsheet Link                                      版本 25.1             (R2025a)
+Stateflow                                             版本 25.1             (R2025a)
+Statistics and Machine Learning Toolbox               版本 25.1             (R2025a)
+Symbolic Math Toolbox                                 版本 25.1             (R2025a)
+System Composer                                       版本 25.1             (R2025a)
+System Identification Toolbox                         版本 25.1             (R2025a)
+Text Analytics Toolbox                                版本 25.1             (R2025a)
+UAV Toolbox                                           版本 25.1             (R2025a)
+Vehicle Dynamics Blockset                             版本 25.1             (R2025a)
+Vehicle Network Toolbox                               版本 25.1             (R2025a)
+Vision HDL Toolbox                                    版本 25.1             (R2025a)
+WLAN Toolbox                                          版本 25.1             (R2025a)
+Wavelet Toolbox                                       版本 25.1             (R2025a)
+Wireless HDL Toolbox                                  版本 25.1             (R2025a)
+Wireless Testbench                                    版本 25.1             (R2025a)
+MATLABROOT=F:\Program Files\MATLAB\R2025a
+F:\Program Files\MATLAB\R2025a\toolbox\shared\optimlib\fmincon.m
+F:\Program Files\MATLAB\R2025a\toolbox\curvefit\curvefit\fit.m
+F:\Program Files\MATLAB\R2025a\toolbox\mbc\mbcdesign\@conbase\fit.m       % conbase method
+F:\Program Files\MATLAB\R2025a\toolbox\mbc\mbcdesign\@conswitch\fit.m     % conswitch method
+F:\Program Files\MATLAB\R2025a\toolbox\mbc\mbcdesign\@contwostage\fit.m   % contwostage method
+F:\Program Files\MATLAB\R2025a\toolbox\mbc\mbcmodels\@localmod\fit.m      % localmod method
+F:\Program Files\MATLAB\R2025a\toolbox\mbc\mbcmodels\@localmulti\fit.m    % localmulti method
+F:\Program Files\MATLAB\R2025a\toolbox\mbc\mbcmodels\@xregmodel\fit.m     % xregmodel method
+F:\Program Files\MATLAB\R2025a\toolbox\stats\stats\@gmdistribution\fit.m  % gmdistribution method
+F:\Program Files\MATLAB\R2025a\toolbox\globaloptim\globaloptim\ga.m
+LICENSE Optimization_Toolbox = 1
+LICENSE Curve_Fitting_Toolbox = 1
+LICENSE GADS_Toolbox = 1
+    MaxPossibleArrayBytes: 1.6361e+10
+    MemAvailableAllArrays: 1.6361e+10
+            MemUsedMATLAB: 2.0065e+09
+
+    VirtualAddressSpace: [1×1 struct]
+           SystemMemory: [1×1 struct]
+         PhysicalMemory: [1×1 struct]

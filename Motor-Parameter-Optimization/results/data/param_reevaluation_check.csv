@@ -1,0 +1,2 @@
+scenario,provenance,optimizer_mean_full_Nm,reevaluated_mean_full_Nm,optimizer_std_full_Nm,reevaluated_std_full_Nm,optimizer_area_quarter_m2,reevaluated_area_quarter_m2
+param,local_run,2.30000009324613,2.30000010665162,0.0996214985626859,0.0996215092847715,0.000159065270087827,0.000159065269089988

@@ -1,0 +1,13 @@
+# Local source clone and disposable numerical workspaces
+/MotorOptimization/
+/Motor-Parameter-Optimization/runtime/
+/Motor-Parameter-Optimization/external/
+**/__pycache__/
+*.pyc
+*.asv
+*.m~
+*.mexw64
+.DS_Store
+Thumbs.db
+.env
+.env.*
