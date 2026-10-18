@@ -22,6 +22,16 @@ assert summary['mean_torque_Nm'] >= 2.3 and summary['constraint_max_violation'] 
 def rows(path):
     with path.open(encoding='utf-8-sig',newline='') as f:
         return list(csv.DictReader(f))
+def exact_case_exists(path):
+    # Windows exists() accepts mismatched case; GitHub URL paths do not.
+    cursor=path.anchor and Path(path.anchor) or Path('.')
+    for part in path.parts:
+        if part in {path.anchor,'.'}: continue
+        if part=='..': cursor=cursor.parent; continue
+        if not cursor.is_dir() or part not in {entry.name for entry in cursor.iterdir()}:
+            return False
+        cursor=cursor/part
+    return cursor.exists()
 parameters = rows(data / 'Parameter_Comparison.csv')
 assert len(parameters) == 17
 for p in parameters:
@@ -42,14 +52,15 @@ for md in root.rglob('*.md'):
         continue
     for link in re.findall(r'!?\[[^\]]*\]\(([^)]+)\)',md.read_text(encoding='utf-8')):
         if not re.match(r'https?://',link):
-            assert (md.parent / link.split('#')[0]).exists(), f'{md}: {link}'
+            assert exact_case_exists(md.parent / link.split('#')[0]), f'{md}: {link}'
 manifest = root / 'docs/FILE_MANIFEST.csv'
 if manifest.exists():
     for item in rows(manifest):
+        assert exact_case_exists(root / item['path']), item['path']
         content = (root / item['path']).read_bytes()
         assert len(content) == int(item['bytes'])
         assert hashlib.sha256(content).hexdigest() == item['sha256'], item['path']
 print(json.dumps({'status':'passed','all_mat_readable':True,'all_png_readable':True,
     'parameters':17,'callback_records':53,'iterations':51,'function_evaluations':72,
     'population_std_verified':True,'bounds_feasible':True,'field_residuals_feasible':True,
-    'markdown_links_valid':True,'hash_manifest_verified':manifest.exists()},ensure_ascii=False,indent=2))
+    'markdown_links_valid_including_case':True,'hash_manifest_verified':manifest.exists()},ensure_ascii=False,indent=2))
